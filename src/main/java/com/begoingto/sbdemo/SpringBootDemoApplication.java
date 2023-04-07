@@ -22,9 +22,6 @@ public class SpringBootDemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		log.info("Your server port: {}", port);
-		log.warn("Your server port: {}", port);
-		log.error("Your server port: {}", port);
-		log.error("You are class: {}", IstadClass);
+		log.info("Your server port: http://localhost:{}", port);
 	}
 }
